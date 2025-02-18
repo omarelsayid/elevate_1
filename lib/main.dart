@@ -9,8 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
-Bloc.observer = CustomBlocObserver();
-  
+  Bloc.observer = CustomBlocObserver();
+
   configureDependencies();
   runApp(const MainApp());
 }
@@ -21,6 +21,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Flutter Demo',
       home: BlocProvider(
           create: (context) => HomeCubit(getIt.get<GetCategoriesUseCase>()),
           child: HomeScreen()),
