@@ -51,13 +51,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     );
                   }
-                  return Text('home');
+                  return Text('hoome');
                 },
                 bloc: homeCubit,
               ),
             ),
             SizedBox(height: 20),
-           InkWell(
+            InkWell(
               onTap: () {
                 homeCubit.call();
               },
@@ -91,7 +91,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 bloc: homeCubit,
               ),
             ),
-          
           ],
         ),
       )),
