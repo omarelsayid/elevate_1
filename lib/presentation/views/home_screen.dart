@@ -17,8 +17,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-          child: Center(
+        body: SafeArea(
+      child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ],
         ),
-      )),
-    );
+      ),
+    ));
   }
 }
