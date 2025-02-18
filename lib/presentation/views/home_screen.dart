@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     );
                   }
-                  return Text('home');
+                  return Text('HOMEEEE');
                 },
                 bloc: homeCubit,
               ),
